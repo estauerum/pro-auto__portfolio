@@ -1,0 +1,27 @@
+@import 'bootstrap-reboot.min';
+@import 'font';
+
+* {
+    font-family: 'Open_sans';
+    margin: 0;
+    padding: 0;
+}
+
+h2, h1 {
+    margin: 0;
+}
+
+.container {
+    width: 1225px;
+    margin: 0 auto;
+}
+
+@import 'blocks/title';
+@import 'blocks/btn';
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/rent';
+@import 'blocks/park';
+
+
+

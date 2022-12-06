@@ -1,0 +1,20 @@
+.btn {
+    width: 260px;
+    height: 65px;
+    background: linear-gradient(180deg, #2C89DE 0%, #0B2566 100%);
+    box-shadow: 4px 10px 20px rgba(13, 40, 106, 0.1);
+    border-radius: 15px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 25px;
+    &_park {
+        width: 200px;
+        height: 50px;
+        margin-top: 35.5px;
+    }
+}

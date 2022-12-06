@@ -1,0 +1,92 @@
+.rent {
+    min-height: 739px;
+    display: flex;
+    position: relative;
+    &__cover {
+        display: flex;
+    }
+    &__promo {
+        width: 840px;
+        padding-top: 89px;
+    }
+    &__title {
+        font-family: 'El Messiri';
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-top: 25px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-top: 25px;
+        width: 394px;
+    }
+    &__wrap {
+        display: flex;
+        width: 677px;
+        margin-top: 121px;
+    }
+    &__item {
+        height: 60px;
+        padding: 10px;
+        border-left: 2px solid #000000;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+    &__start {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(180deg, #2C89DE 0%, #0B2566 100%);
+        border-radius: 0px 0px 0px 20px;
+        height: 739px;
+        width: 572px;
+    }
+    &__offer {
+        margin-top: 604px;
+        position: relative;
+        width: 302px;
+        margin-left: 70px;
+    }
+    &__rn {
+        padding: 11px 105px 13px 11px;
+        background: #FFFFFF;
+        border-radius: 34px;
+        height: 74px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+    }
+    &__btn {
+        background-color: rgba(28,28,28,0);
+        border: none;
+        position: absolute;
+        right: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__img {
+        position: absolute;
+        top: 41px;
+        right: 0;
+    }
+}

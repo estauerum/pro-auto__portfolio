@@ -1,0 +1,44 @@
+.header {
+    height: 79px;
+    padding-bottom: 20px;
+    &__wrap {
+        display: flex;
+    }
+    &__text {
+        font-family: 'El Messiri';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 39px;
+        letter-spacing: 0.075em;
+        color: #000000;
+        margin-top: 29px;
+    }
+    &__img {
+        margin-top: 20px;
+        margin-left: 360px;
+    }
+    &__contacts {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 190px;
+        align-items: flex-end;
+    }
+    &__adress {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.075em;
+        color: #000000;
+        text-decoration: none;
+        &_tel {
+            display: flex;
+            align-items: center;
+            &::before {
+                content: url(../icon/header/tel.svg);
+                margin-left: 10px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
