@@ -1,0 +1,49 @@
+.benefits {
+    background: #000000;
+    min-height: 391px;
+    padding: 40px 0;
+    &__line {
+        height: 5px;
+        background-color: #fff;
+        &-mt40 {
+            margin-top: 40px;
+        }
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    &__item {
+        width: 174px;
+    }
+    &__title {
+        font-family: 'El Messiri';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    &__descr {
+        position: relative;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        &::before{
+            content:'';
+            display: block;
+            position: absolute;
+            top: 7px;
+            left: -9px;
+            width: 3px;
+            height: 3px;
+            background-color: #fff;
+            border-radius: 100%;
+        }
+    }
+}
